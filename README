@@ -1,0 +1,50 @@
+ANDROID SUDOKU SOLVER
+
+SudoSolver is an Android app for solving Sudoku puzzles using Knuth's Dancing
+Links algorithm written in Java and licensed under the 3-clause BSD license.
+You can find license details in the LICENSE file, located in the root directory
+of the source distribution.
+
+The program solves Sudoku grids by converting them into an instance of the
+exact cover problem, solving the exact cover with a Dancing Links
+implementation of Knuth's Algorithm X, and converting the solution back
+into an instance of Sudoku. The program will also detect if a puzzle is
+unsolvable.
+
+This app is an Android port of my various other Sudoku solvers hosted on
+github at http://github.com/bconniff
+
+REQUIREMENTS
+
+Of all the different ports of my Sudoku solver, this has the most requirements
+to build.
+
+Firstly, you will need a recent Java SDK, and possibly Apache's Ant build tool.
+
+Secondly, you will need a recent version of the Android SDK. From the Android SDK,
+install the most recent Android API packages.
+
+Lastly, you will need the Eclipse IDE, and the ADT plugin for Eclipse.
+
+COMPILATION
+
+Once you have all the required tools installed, building the app is farily
+simple.
+
+First, import the project into Eclipse. To do this, open Eclipse and select the
+"File > Import..." menu option. From the import dialog, choose "Android >
+Existing Android Code into Workspace". Select the root directory of your source
+download and check the project. Continue following the prompts in the import
+wizard.
+
+Next, use Eclipse to export the project as an Android app. To do this, choose
+"File > Export..." from the menu in Eclipse. From the export dialog, choose
+"Android > Export Android Application". Select the project from the browse
+menu, and choose a key to sign the app with (or create a key). Lastly, choose
+a location to save the APK file.
+
+INSTALLATION
+
+Once you've generated the APK file, you can copy the app to your phone's SD
+card by your preferred method. Open the APK in a file browser on your phone
+to install it.

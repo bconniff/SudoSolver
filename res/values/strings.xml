@@ -1,0 +1,10 @@
+<resources>
+   <string name="app_name">SudoSolver</string>
+   <string name="title_activity_solver">Sudoku Solver</string>
+   <string name="solve_text">Solve</string>
+   <string name="clear_text">Clear</string>
+   <string name="cancel_text">Cancel</string>
+   <string name="ok_text">OK</string>
+   <string name="select_text">Select a number</string>
+   <string name="solve_failed">Puzzle could not be solved</string>
+</resources>
