@@ -12,7 +12,15 @@ into an instance of Sudoku. The program will also detect if a puzzle is
 unsolvable.
 
 This app is an Android port of my various other Sudoku solvers hosted on
-github at http://github.com/bconniff
+github at:
+
+   http://github.com/bconniff
+
+Download the APK at:
+
+   http://github.com/bconniff/SudoSolver/SudoSolver.apk
+
+If you'd like to build it yourself or modify it, keep reading...
 
 REQUIREMENTS
 
