@@ -30,7 +30,7 @@ package org.pxanic.sudosolver.dlx;
 
 import java.util.*;
 
-/* Translates a sudoku puzzle into an instance of the exact cover problem,
+/* Translates a Sudoku puzzle into an instance of the exact cover problem,
  * then uses Dancing Links to solve it */
 public class Solver {
    private int[][] solution = null;
